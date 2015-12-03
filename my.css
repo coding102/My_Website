@@ -19,24 +19,34 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 body {
     height: 750px;
+
 }
 
-#header {
-    background-color: white;
-    height: 380px;
+#background {
+    margin-top: -40px;
+    max-width: 100%;
+    position: relative;
+    
 }
+
 .container {
-    height: 750px;
+    height: 100%;
     background-color:#1971e5;
+
 }
 
-li {
+#nav li{
+    padding: 5px;
     float: right;
-    margin-right: 10px;
     font-size: 20px;
-    list-style: none;
+    display: inline;
+    z-index:10; /*or more than your image */
+    position:relative;
 }
 
+#nav li a:hover {
+    background-color: #1971e5;
+}
 
 
 
