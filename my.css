@@ -10,7 +10,7 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 #footer {
     width:auto;
-    padding-top: 310px;
+    padding-top: 240px;
     padding-right: 10px;
     padding-bottom: 10px;
     float: right;
@@ -19,7 +19,6 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 
 body {
     height: 750px;
-
 }
 
 #background {
@@ -35,19 +34,30 @@ body {
 
 }
 
-#nav li{
-    padding: 5px;
-    float: right;
-    font-size: 20px;
-    display: inline;
-    z-index:10; /*or more than your image */
-    position:relative;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 25px 10px;
+    overflow: hidden;
+    background-color: #333;
 }
 
-#nav li a:hover {
-    background-color: #1971e5;
+li {
+    float: left;
 }
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
 
 
