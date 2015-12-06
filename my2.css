@@ -9,35 +9,88 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 
 #footer {
-    width:auto;
-    padding-top: 310px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    float: right;
-    height: auto;
+    width:1280px;
+    padding: 10px 0 10px 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+}
+
+#footer img {
 }
 
 body {
-    height: 750px;
+    height: 1280px;
+    width: 1280px;
 }
 
-#header {
-    background-color: white;
-    height: 380px;
+#background {
+    margin-top: -40px;
+    margin-bottom: -5px;
+    max-width: 1280px;
+    position: relative; 
 }
+
+#content {
+    height: 550px;
+    width: 900px;
+    margin: 15px auto;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
 .container {
-    height: 750px;
+    height: 1280px;
     background-color:#1971e5;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 0 25px 10px;
+    overflow: hidden;
+    background-color: #333;
+    
 }
 
 li {
-    float: right;
-    margin-right: 10px;
-    font-size: 20px;
-    list-style: none;
+    float: left;
 }
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
 
 

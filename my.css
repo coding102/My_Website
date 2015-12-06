@@ -22,9 +22,8 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 }
 
 body {
-    height: 290px;
+    height: 860px;
     width: 1280px;
-    background-color: aqua;
 }
 
 #background {
@@ -36,7 +35,7 @@ body {
 }
 
 .container {
-    height: 1280px;
+    height: 860px;
     background-color:#1971e5;
 
 }
@@ -59,7 +58,16 @@ body {
 }
 
 #column p {
-    
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 18%;
+    font-family: antic-didone, sans-serif; 
+}
+
+#column h5 {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 1%
 }
 
 ul {
